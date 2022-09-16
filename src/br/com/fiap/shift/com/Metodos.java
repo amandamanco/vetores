@@ -9,4 +9,12 @@ public class Metodos {
 	public static double calcularIMC(float peso, float altura) {
 		return peso / Math.pow(altura, 2);
 	}
+
+	public static boolean isPar(int numero) {
+		if (numero % 2 == 0) {
+			return true;
+		} else {
+			return false;
+		}
+	}
 }
